@@ -1,0 +1,38 @@
+/* Wrapper for all cards */
+.cardWrapper {
+  display: flex;
+  flex-wrap: wrap;        
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Each card */
+.mainContainer {
+  flex: 0 0 calc(33.33% - 20px);  
+  display: flex;
+  justify-content: center;
+}
+
+/* Card design */
+.cardContainer {
+  width: 100%;
+  max-width: 250px;
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 20px;
+  transition: 0.3s ease;
+}
+
+.cardContainer:hover {
+  transform: translateY(-8px);
+}
+
+.cardContainer img {
+  width: 120px;
+  height: 80px;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
