@@ -1,5 +1,26 @@
+import { useState } from "react"
+//? method 1
+// const users = [{
+//     username :"Hassan",
+//     age:20
+// },
+// {
+//     username :"Ali",
+//     age:24
+// },
+// {
+//     username :"Hussain",
+//     age:29
+// },
+// {
+//     username :"Ahmad",
+//     age:25
+// }]
 
-const users = [{
+
+function StateChallange() {
+    //? method 2 using usestate 
+    const[users , setUser] = useState([{
     username :"Hassan",
     age:20
 },
@@ -14,9 +35,9 @@ const users = [{
 {
     username :"Ahmad",
     age:25
-}]
+}]);
 
-function StateChallange() {
+setUser; //! just for array remove 
   return (
     <section>
       <h1>Admin Pannel</h1>
