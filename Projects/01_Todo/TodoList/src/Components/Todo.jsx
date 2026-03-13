@@ -5,11 +5,13 @@ import TodoData from "./TodoData";
 import TodoForm from "./TodoForm";
 import TodoList from "./TodoList";
 import TodoClearBtn from "./TodoClearBtn";
+import GetLocalStorageData, { SetLocalStorageData } from "./LocalStorageData";
+
 
 
 function Todo() {
-    
-    const[divs , SetDivs] = useState([]);
+   
+    const[divs , SetDivs] = useState(GetLocalStorageData());
     const HandleClick = (inputValue) => {
     const {id , content , checked} = inputValue;
     const isduplicate = divs.find((item) => item.content === content);
@@ -24,6 +26,7 @@ function Todo() {
         SetDivs(filteredTasks);
         
     }
+    SetLocalStorageData(divs);
     const HandleCheckTask = (content) =>{
         const updatedTasks = divs.map((item) => {
             if(item.content === content){
