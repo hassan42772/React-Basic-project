@@ -1,21 +1,52 @@
 body{
   background-color: #212121;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
 
 section{
   width: 100%;
-  height: 100vh;
-  background-color: black;
+  height: 80vh;
+  background-color: aqua;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
+.buttonContainer{
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+
+}
 button{
-  width: 10vw;
+  width: 12vw;
+  height: 5vh;
+  border-radius:1rem;
+  border: none;
+  outline: none;
+}
+button:disabled{
+  background-color: rgba(255, 0, 0, 0.849);
+  color: white;
+}
+input{
+  width: 20vw;
+  height: 5vh;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+  border: none;
+  outline: none;
+  text-align: center;
+
 }
 h1{
+  color: white;
+}
+h2{
   color: white;
 }
 ul{

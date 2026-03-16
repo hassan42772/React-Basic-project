@@ -1,21 +1,21 @@
 import { useState } from "react"
-//? method 1
-// const users = [{
-//     username :"Hassan",
-//     age:20
-// },
-// {
-//     username :"Ali",
-//     age:24
-// },
-// {
-//     username :"Hussain",
-//     age:29
-// },
-// {
-//     username :"Ahmad",
-//     age:25
-// }]
+//! method 1 // just for testing data 
+const Userdata = [{
+    username :"Hassan",
+    age:20
+},
+{
+    username :"Ali",
+    age:24
+},
+{
+    username :"Hussain",
+    age:29
+},
+{
+    username :"Ahmad",
+    age:25
+}]
 
 
 function StateChallange() {
@@ -37,7 +37,7 @@ function StateChallange() {
     age:25
 }]);
 
-setUser; //! just for array remove 
+setUser; //? this is use for remove the error from the computer. 
   return (
     <section>
       <h1>Admin Pannel</h1>

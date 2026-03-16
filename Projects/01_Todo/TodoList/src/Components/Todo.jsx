@@ -21,12 +21,13 @@ function Todo() {
     }
     SetDivs([...divs , {id:id , content:content , checked:checked}]);
     }
+    
     const HandleRemoveTask = (content) =>{
         const filteredTasks = divs.filter((item) => item.content !== content);
         SetDivs(filteredTasks);
-        
     }
     SetLocalStorageData(divs);
+    
     const HandleCheckTask = (content) =>{
         const updatedTasks = divs.map((item) => {
             if(item.content === content){

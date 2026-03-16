@@ -5,12 +5,14 @@ import App from './App.jsx'
 import StateChallange from './components/StateChallange.jsx'
 import DerivedState from './components/DerivedState.jsx'
 import LiftingStateUp from './components/LiftingStateUp.jsx'
+import StateChallange2 from './components/StateChallange2.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {/* <App /> */}
     {/* <StateChallange/> */}
     {/* <DerivedState/> */}
-    <LiftingStateUp/>
+    {/* <LiftingStateUp/> */}
+    <StateChallange2/>
   </StrictMode>,
 )
