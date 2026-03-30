@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.Heading1{
+    font-size: 40px;
+    font-family: 'Montserrat';
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+}
+.SearchInput{
+    width: 30%;
+    height: 6vh;
+    border-radius: 17px;
+    border: 1px solid white;
+    outline: none;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+.SearchInput::placeholder{
+ text-align: center;
+ font-size: 17px;
+ font-weight: 600;
+}
+
+.Heading3{
+    font-size: 20px;
+    font-family: 'Montserrat';
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+}
+
+.MainContainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
+.CardContainer{
+    width: 200px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 10px; 
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 20px;
+}
+.CardImage{
+    width: 100%;
+}

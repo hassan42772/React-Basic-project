@@ -9,8 +9,8 @@ const Card = ()=>{
   useEffect(()=>{
     //https://countriesnow.space/api/v0.1/countries
     fetch("https://restcountries.com/v3.1/all?fields=name,flags")
-  .then(res => res.json()).then(data => setcountries(data)).catch(err => console.log(err))
-  },[])
+  .then((res) => res.json()).then((data) => setcountries(data)).catch((err) => console.log(err))
+  },[]) 
     
     return(
         <>
