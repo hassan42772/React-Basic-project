@@ -12,13 +12,14 @@ import UseIdHook from './components/hooks/UseIdHook/UseIdHook.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    {/* <App /> */}
+    <App />
     {/* <StateChallange/> */}
     {/* <DerivedState/> */}
     {/* <LiftingStateUp/> */}
     {/* <StateChallange2/> */}
     {/* <Effect/> */}
     {/* <Ref/> */}
-    <UseIdHook/>
+    {/* <UseIdHook/> */}
+    {/* <App/> */}
   </StrictMode>,
 )
