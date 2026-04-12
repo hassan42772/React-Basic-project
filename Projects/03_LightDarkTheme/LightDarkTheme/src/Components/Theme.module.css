@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --dark-color: #000;
+    --light-color: #fff;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+ .dark{
+    background-color: var(--dark-color);
+    color: var(--light-color);
+}
+ .light{
+    background-color: var(--light-color);
+    color: var(--dark-color);
+}
+
+div h1{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+div button{
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
