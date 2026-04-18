@@ -13,8 +13,8 @@ import Reducer from './components/hooks/UseReducer/Reducer.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Reducer/>
-    {/* <App /> */}
+    {/* <Reducer/> */}
+    <App />
     {/* <StateChallange/> */}
     {/* <DerivedState/> */}
     {/* <LiftingStateUp/> */}

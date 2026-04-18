@@ -1,0 +1,1 @@
+Memo is a React hook that allows you to memoize a component and prevent unnecessary re-renders. It is used to optimize performance by memoizing the result of a component and only re-rendering it when its props change.

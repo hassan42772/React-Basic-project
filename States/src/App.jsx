@@ -5,17 +5,18 @@ import { MyProviderwithuse } from './components/hooks/UseHook'
 import About from './components/hooks/UseHook/about'
 import Home from './components/hooks/UseHook/home'
 import Services from './components/hooks/UseHook/Services'
+import Memo from './components/hooks/MemoReact/Memo'
 function App() {
 
   return (
    <>
-    <MyProviderwithuse>
+    {/* <MyProviderwithuse>
        <Home/>
        <About/>
        <Services/>
-     </MyProviderwithuse>
+     </MyProviderwithuse> */}
 
-
+      <Memo/>
 
 
      {/* <MyProvider>
