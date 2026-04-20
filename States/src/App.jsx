@@ -6,6 +6,7 @@ import About from './components/hooks/UseHook/about'
 import Home from './components/hooks/UseHook/home'
 import Services from './components/hooks/UseHook/Services'
 import Memo from './components/hooks/MemoReact/Memo'
+import UseMemo from './components/hooks/UseMemoHook/UseMemo'
 function App() {
 
   return (
@@ -16,7 +17,8 @@ function App() {
        <Services/>
      </MyProviderwithuse> */}
 
-      <Memo/>
+      {/* <Memo/> */}
+      <UseMemo/>
 
 
      {/* <MyProvider>
